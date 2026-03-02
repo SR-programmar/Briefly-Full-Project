@@ -2,6 +2,8 @@
 
 ![Briefly Logo](Briefly%20Logo.png)
 
+Logo made in [Canva](https://www.canva.com/)
+
 An app designed to assist the visually impaired in using the internet
 
 ## Note for judges
@@ -11,6 +13,8 @@ If you want a better look of each individual project, you can follow the links b
 
 - [Briefly Chrome Extension](https://github.com/SR-programmar/Briefly)
 - [Briefly Back End](https://github.com/SR-programmar/Briefly-back-end)
+
+Our repository contains extensive documentation in the "documentation/" folder.
 
 ## What is Briefly?
 
