@@ -1,0 +1,12 @@
+### Keeps repository clean ###
+__pycache__/
+back_env/
+node_modules/
+
+### Files/directories used for testing ###
+cnt.txt
+testing_js/
+test.py
+
+### Private Information ###
+.env
