@@ -1,16 +1,16 @@
 # Project Briefly - 1 Page summary
 
-1. How it works (visual representation)
+## 1. How it works (visual representation)
 
 ![prototype](graphics/how%20it%20works.png)
 
-2. The journey
+## 2. The journey
 
-**Oct. 23rd - Nov. 12th, 2025** - Defined the biggest challenges and created a
+**Oct 23rd - Nov 12th, 2025** - Defined the biggest challenges and created a
 
 prototype
 
-**Nov. 12th - Dec 5th, 2025** - Created Rosie, the AI Agent web assistant, and gained
+**Nov 12th - Dec 5th, 2025** - Created Rosie, the AI Agent web assistant, and gained
 
 feedback from experts.
 
@@ -22,25 +22,24 @@ strengthening Rosie, and utilizing **Google’s Gemini**
 
 documentation, and project repository for submission
 
-3. How it works
+## 3. How it works
 
 **Front-end (Chrome extension) -** Sends necessary information to the Python
 
-server; it listens for input from the user's microphone and registers triggered
+server. It listens for input from the user's microphone and registers triggered
 
 keyboard commands.
 
-**Back-end (Python server) -** Makes API calls to Gemini, sending it user prompts and
+**Back-end (Python server) -** Makes API calls to Gemini or OpenAI, sending it user prompts and
 
 pre-processed webpage content
 
-**The Brain (Gemini) -** Performs the summarization of webpages and acts as **Rosie**.
+**The Brain (Gemini) -** Performs the summarization of webpages
 
-4. Quality of the software’s functionality
+## 4. Quality of the software’s functionality
 
-We loaded the Briefly Chrome extension into Chrome and logged all output from
-
-Gemini to evaluate the software.
+We loaded the Briefly Chrome extension into Chrome and logged all responses given by
+Artificial Intelligence to evaluate the software.
 
 ```
 ● Summaries were concise and easy to understand.
@@ -75,9 +74,7 @@ Press Ctrl 3x to summarize a webpage with
 OpenAI.
 ```
 
-### Nov - Dec 5th - Rosie and expert
-
-reviews
+### Nov - Dec 5th - Rosie and expert feedback
 
 **Introducing Rosie!**
 
@@ -119,14 +116,14 @@ elements on the screen
 
 ```
 The server makes API calls to Gemini for better
-summaries
+summaries, but still uses OpenAI to act as Rosie.
 ```
 
 ### Feb - Mar 19th Software Finalization Debugging, documentation, and a repository.
 
 ```
-before the conference Created a repository with both the back and front
-ends of Briefly. The software was thoroughly
+Before the conference, we created a repository with both the back and front
+ends of Briefly, and the software was thoroughly
 tested to ensure no ill performance.
 ```
 
@@ -196,7 +193,11 @@ frontend.
 
 **Gemini**
 
-Gemini is the AI Model that’s instructed to summarize content or act as Rosie.
+Gemini is the AI Model that’s instructed to summarize content
+
+**OpenAI**
+
+A model from OpenAI is what pretends to be "Rosie"
 
 # Testing
 

@@ -5,19 +5,19 @@ This document explains how and why we designed Briefly the way we did.
 Table of contents
 
 - [Design Documentation](#design-documentation)
-  - [October 23rd - November 12th, 2025](#october-23rd---november-12th-2025)
-    - [Interview with two vision specialists](#interview-with-two-vision-specialists)
-    - [Prototype](#prototype)
-  - [November 12th, 2025 - December 5th, 2025](#november-12th-2025---december-5th-2025)
-    - [Rosie, the AI Agent web assistant (version 2.0)](#rosie-the-ai-agent-web-assistant-version-20)
-    - [Interview with a software engineer - November 26th, 2025](#interview-with-a-software-engineer---november-26th-2025)
-    - [Interview with a previous vision specialist](#interview-with-a-previous-vision-specialist)
-  - [December 5th - February 28th, 2026](#december-5th---february-28th-2026)
-    - [Version 3.](#version-3)
-    - [Interview with a vision specialist to test the application](#interview-with-a-vision-specialist-to-test-the-application)
-    - [Version 3.](#version-3-1)
-  - [Conclusion](#conclusion)
-    - [One sentence Summary:](#one-sentence-summary)
+    - [October 23rd - November 12th, 2025](#october-23rd---november-12th-2025)
+        - [Interview with two vision specialists](#interview-with-two-vision-specialists)
+        - [Prototype](#prototype)
+    - [November 12th, 2025 - December 5th, 2025](#november-12th-2025---december-5th-2025)
+        - [Rosie, the AI Agent web assistant (version 2.0)](#rosie-the-ai-agent-web-assistant-version-20)
+        - [Interview with a software engineer - November 26th, 2025](#interview-with-a-software-engineer---november-26th-2025)
+        - [Interview with a previous vision specialist](#interview-with-a-previous-vision-specialist)
+    - [December 5th - February 28th, 2026](#december-5th---february-28th-2026)
+        - [Version 3.](#version-3)
+        - [Interview with a vision specialist to test the application](#interview-with-a-vision-specialist-to-test-the-application)
+        - [Version 3.](#version-3-1)
+    - [Conclusion](#conclusion)
+        - [One sentence Summary:](#one-sentence-summary)
 
 ## October 23rd - November 12th, 2025
 
@@ -26,16 +26,16 @@ Table of contents
 We interviewed two vision specialists to define the biggest problems visually
 impaired users have with technology
 
-1. Compatibility issues:
+1. **Compatibility issues -**
    Some screen reader software was developed in the early 2000s and
    isn’t compatible with the latest versions of systems.
-2. Text-to-speech
+2. **Text-to-speech -**
    This software may not correctly read what’s on the screen.
    It’s also not pleasant to listen to its robotic-sounding voice
-3. Time consumption
+3. **Time consumption -**
    It takes a long time to listen to content being read aloud compared to
    reading it with your eyes
-4. Simplicity
+4. **Simplicity -**
    Screen reader software is very complex and hard to learn. This leads
    visually impaired users to be frustrated and neglect learning the
    software.
@@ -60,7 +60,7 @@ questions and perform more complex tasks, such as opening a website.
 
 This helps address the problems defined because:
 
-- the user doesn’t have to navigate using keyboard commands
+- the user doesn’t have to navigate using multiple keyboard commands
 - The user doesn’t have to listen to irrelevant information being read aloud
   -It’s easy to learn and gets things done quickly
 
@@ -78,14 +78,14 @@ We had the vision specialist, one we previously interviewed, come back to test o
 application. She gave us the following advice.
 
 ```
-- Add sound cues during summaries and the AI Agent
+- Add sound cues during summaries and the AI Agent's responses
 - Ability to pause the screen reader
 - Braille instructions for Braille display or Printer embosser
 ```
 
 ## December 5th - February 28th, 2026
 
-### Version 3.
+### Version 3.0
 
 Our extension has the following capabilities:
 
@@ -112,10 +112,10 @@ She recommended the following
 - Ability to set alarms
 - Remove the need to ask for tab interaction
 
-### Version 3.
+### Version 4.0
 
 We decided to only incorporate some of the requested features before we went to
-the state conference. We chose Spanish translation and Gemini.
+the state conference. We decided to implement Spanish translation and Gemini.
 
 Previously mentioned, a software expert had recommended us to use Gemini
 instead of OpenAI.
