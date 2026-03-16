@@ -1,6 +1,8 @@
 # Tutorial Documentation
 
+```
 This document teaches you how to use Briefly.
+```
 
 ## Introduction
 
@@ -11,7 +13,7 @@ saving them time.
 
 ## System Architecture
 
-![System Architecture](graphics/AI%20Agent%20architecture.png)
+![System Architecture](../graphics/AI%20Agent%20architecture.png)
 
 ### Flowchart Labels
 

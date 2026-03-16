@@ -5,14 +5,11 @@ This document details how the code works for Briefly, an app designed to assist 
 visually impaired.
 ```
 
-Table of contents
+## Table of contents
 
-- [Code Documentation](#code-documentation)
-  - [Introduction](#introduction)
-  - [Summarization](#summarization)
-  - [AI Agent Rosie](#ai-agent-rosie)
-  - [Testing](#testing)
-  - [Conclusion](#conclusion)
+- [Summarization](#summarization)<br>
+- [AI Agent](#ai-agent-rosie)<br>
+- [Conclusion](#conclusion)
 
 ## Introduction
 
@@ -28,7 +25,7 @@ Briefly consists of two parts<br>
 Our extension can summarize the current webpage’s content and then read it
 aloud. Here is the process:
 
-![Process](graphics/code%20doc/summarization%20process.png)
+![Process](../graphics/code%20doc/summarization%20process.png)
 Our **front-end** sends the webpage to the **back-end** , which then pre-processes it.
 
 The **back-end** makes API calls to Artificial Intelligence from **OpenAI** or **Gemini**
@@ -66,7 +63,7 @@ operation.
     }
 
 Here’s the purpose of each parameter.
-![Purpose](graphics/code%20doc/purpose.png)
+![Purpose](../graphics/code%20doc/purpose.png)
 The **index** for a function is the browser operation that needs to be performed. An
 **index** of -1 means no operation is required.
 
@@ -86,10 +83,10 @@ some tests relied on observation and listening.
 We then analyzed the output to create a final testing result.
 
 **Chart 1 - Summarization testing**
-![Summary results](graphics/sum%20test%20results.png)
+![Summary results](../graphics/sum%20test%20results.png)
 
 **Chart 2 - AI Agent testing**
-![Agent results](graphics/agent%20results.png)
+![Agent results](../graphics/agent%20results.png)
 
 ## Conclusion
 

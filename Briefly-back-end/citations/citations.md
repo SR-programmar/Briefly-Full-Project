@@ -1,7 +1,7 @@
 # Citations
 
 This readme includes code, python packages, and websites we used
-to create this server that we didn't create.
+to create the Briefly-back-end server.
 
 ## OpenAI API Code
 

@@ -1,23 +1,8 @@
 # Design Documentation
 
+```
 This document explains how and why we designed Briefly the way we did.
-
-Table of contents
-
-- [Design Documentation](#design-documentation)
-    - [October 23rd - November 12th, 2025](#october-23rd---november-12th-2025)
-        - [Interview with two vision specialists](#interview-with-two-vision-specialists)
-        - [Prototype](#prototype)
-    - [November 12th, 2025 - December 5th, 2025](#november-12th-2025---december-5th-2025)
-        - [Rosie, the AI Agent web assistant (version 2.0)](#rosie-the-ai-agent-web-assistant-version-20)
-        - [Interview with a software engineer - November 26th, 2025](#interview-with-a-software-engineer---november-26th-2025)
-        - [Interview with a previous vision specialist](#interview-with-a-previous-vision-specialist)
-    - [December 5th - February 28th, 2026](#december-5th---february-28th-2026)
-        - [Version 3.](#version-3)
-        - [Interview with a vision specialist to test the application](#interview-with-a-vision-specialist-to-test-the-application)
-        - [Version 3.](#version-3-1)
-    - [Conclusion](#conclusion)
-        - [One sentence Summary:](#one-sentence-summary)
+```
 
 ## October 23rd - November 12th, 2025
 
@@ -115,7 +100,7 @@ She recommended the following
 ### Version 4.0
 
 We decided to only incorporate some of the requested features before we went to
-the state conference. We decided to implement Spanish translation and Gemini.
+the state conference. We decided to implement Spanish translation and making API calls to Gemini.
 
 Previously mentioned, a software expert had recommended us to use Gemini
 instead of OpenAI.

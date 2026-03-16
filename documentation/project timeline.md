@@ -1,5 +1,9 @@
 # Project Briefly - 1 Page summary
 
+```
+This document gives you a full summary of Briefly with testing, design, requirements, code, and timeline.
+```
+
 ## 1. How it works (visual representation)
 
 ![prototype](graphics/how%20it%20works.png)
@@ -42,11 +46,13 @@ We loaded the Briefly Chrome extension into Chrome and logged all responses give
 Artificial Intelligence to evaluate the software.
 
 ```
+
 ● Summaries were concise and easy to understand.
 ● Gemini understood how to customize summaries, but sometimes returned
 massive output.
 ● Gemini was superior to OpenAI but sometimes returned unusable output
 that caused errors.
+
 ```
 
 # Project Briefly - 4 Page summary
@@ -54,7 +60,9 @@ that caused errors.
 # Project Timeline
 
 ```
+
 Time Frame | Milestone | Activites
+
 ```
 
 ### Oct - Nov 12th, 2025 - Foundation and Prototype
@@ -62,16 +70,20 @@ Time Frame | Milestone | Activites
 **Interview**
 
 ```
+
 Time consumption and complex screen reader
 software are the biggest challenges faced by
 visually impaired users who use a computer.
+
 ```
 
 **Prototype**
 
 ```
+
 Press Ctrl 3x to summarize a webpage with
 OpenAI.
+
 ```
 
 ### Nov - Dec 5th - Rosie and expert feedback
@@ -79,21 +91,27 @@ OpenAI.
 **Introducing Rosie!**
 
 ```
+
 Can answer questions and navigate to websites
+
 ```
 
 **Interview with a software engineer**
 
 ```
+
 Recommended pre-processing and switching to
 Gemini
+
 ```
 
 **Interview with a previous vision specialist**
 
 ```
+
 She suggested sound cues during summarization
 and the ability to pause the screen reader.
+
 ```
 
 ### Dec - Feb 28th, 2026 - Customization, stronger Rosie, and Gemini
@@ -101,30 +119,38 @@ and the ability to pause the screen reader.
 **Summarization Customization**
 
 ```
+
 Summary can be customized in length, type, or
 language
+
 ```
 
 **Stronger Rosie**
 
 ```
+
 She can now help compose an email and click
 elements on the screen
+
 ```
 
 **Gemini**
 
 ```
+
 The server makes API calls to Gemini for better
 summaries, but still uses OpenAI to act as Rosie.
+
 ```
 
 ### Feb - Mar 19th Software Finalization Debugging, documentation, and a repository.
 
 ```
+
 Before the conference, we created a repository with both the back and front
 ends of Briefly, and the software was thoroughly
 tested to ensure no ill performance.
+
 ```
 
 # Briefly Design
@@ -134,7 +160,9 @@ From an interview in October with two vision specialists, we collected informati
 on the 3 biggest challenges. We designed our software to address each challenge.
 
 ```
+
 Challenge | Solution and Design
+
 ```
 
 ## Time Consumption
@@ -142,32 +170,40 @@ Challenge | Solution and Design
 **Summary**
 
 ```
+
 Briefly can summarize a webpage with Artificial
 Intelligence, to provide only the relevant or wanted
 information.
+
 ```
 
 **Rosie**
 
 ```
+
 Our AI Agent can answer questions directly and can
 help perform common tasks on the web that would
 be difficult to perform with a common screen reader.
+
 ```
 
 ## Complex Screen reader software
 
 ```
+
 All of Briefly’s keyboard commands typically involve
 one key and are all located on the left side of the
 keyboard, making them easy to learn and locate.
+
 ```
 
 ## Robotic-sounding voices
 
 ```
+
 A screen reader’s voice doesn’t sound human at all.
 We chose a voice that is very pleasant to listen to.
+
 ```
 
 # How Briefly Works
