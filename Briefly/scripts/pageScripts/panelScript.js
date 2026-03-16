@@ -159,6 +159,7 @@ function stopAIAgent(msg = "Exiting AI Agent") {
         textToSpeech(msg);
         recognition.stop();
     }
+    agentStartMessage = "Listening";
 }
 
 // Sets 'agent response' to a variable once the server returns a response
