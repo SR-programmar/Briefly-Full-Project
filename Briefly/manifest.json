@@ -1,7 +1,7 @@
 {
     "name": "Briefly",
     "description": "An extension that assists the visually impaired by saving them time",
-    "version": "3.0",
+    "version": "4.0",
     "manifest_version": 3,
     "background": {
         "service_worker": "scripts/service-worker/service-worker.js",
